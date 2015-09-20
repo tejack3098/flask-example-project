@@ -1,4 +1,4 @@
-# Python Flash - example project
+# Python Flask - example project
 
 
 ## Start webapp:
