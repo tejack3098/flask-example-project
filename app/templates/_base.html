@@ -20,6 +20,14 @@
         <header id="pageHeader">
             <p>Header text...</p>
             {% block pageHeader %}{% endblock %}
+
+            {% if session.username %}
+                <p style="color: red">
+                    Session username: <em>"{{session.username}}"</em>
+                    <a href="/session-message">Data in session</a>
+                    <a href="/session-clear">Clear session</a>
+                </p>
+            {% endif %}
             <hr>
         </header>
 
@@ -29,6 +37,7 @@
                 <li><a href="/ajax-1">AJAX 1</a></li>
                 <li><a href="/ajax-2">AJAX 2</a></li>
                 <li><a href="/url-path-params/Martin/24">URL path params</a></li>
+                <li><a href="/session">Session</a></li>
             </ul>
             <hr>
         </nav>
