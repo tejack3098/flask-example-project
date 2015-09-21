@@ -29,7 +29,7 @@ db_test.test_db()
 
 
 
-from views import index, ajax_1, ajax_2, path_params, session, db_address
+from views import index, ajax_1, ajax_2, path_params, session, db_address, db_user
 
 from model import User
 
