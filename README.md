@@ -22,3 +22,7 @@ source env/bin/activate
 pip install requests
 deactivate
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tuxmartin/flask-example-project/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
